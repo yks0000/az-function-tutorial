@@ -1,0 +1,23 @@
+# DO NOT include azure-functions-worker in this file
+# The Python Worker is managed by Azure Functions platform
+# Manually managing azure-functions-worker may cause unexpected issues
+
+azure-functions
+click
+tabulate
+PyYaml
+jsonschema
+requests
+azure-identity
+azure-keyvault-secrets
+flask
+PyJwt
+flask-cors
+flask-restful
+python-box
+werkzeug
+opencensus-ext-azure
+opencensus-ext-logging
+opencensus-ext-flask
+opencensus-ext-requests
+opencensus-extension-azure-functions

@@ -1,5 +1,3 @@
-from re import I
-from symbol import import_as_name
 import time
 
 import requests
@@ -15,6 +13,7 @@ app = Flask(__name__)
 cors = CORS(origins='*', allow_headers=['Content-Type', 'Authorization'])
 
 logger = get_logger(__name__)
+
 
 @app.errorhandler(AppError)
 def handle_auth_error(ex):
